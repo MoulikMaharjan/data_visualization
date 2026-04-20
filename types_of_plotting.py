@@ -3,12 +3,7 @@ import folium
 import pandas as pd
 import matplotlib.pyplot as plt
 import glob
-import pgeocode
-from folium.plugins import HeatMap
 import seaborn as sns
-from sklearn.preprocessing import LabelEncoder
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import (LabelEncoder)
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 merged_file = '/Users/moulikmaharjan/Desktop/plots/merged1.csv'
@@ -249,5 +244,5 @@ HeatMap(
 # Save
 mymap.save("heatmap.html")
 
-print("✅ Heatmap saved as heatmap.html")
+print(" Heatmap saved as heatmap.html")
 '''
